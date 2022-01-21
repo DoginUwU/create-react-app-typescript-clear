@@ -45,7 +45,6 @@
       "react/react-in-jsx-scope": "off",
       "no-use-before-define": "off",
       "import/no-duplicates": "off",
-      "prettier/prettier": "error",
       "camelcase": "off",
       "react/jsx-filename-extension": [
         1,
@@ -64,6 +63,12 @@
         {
           "ts": "never",
           "tsx": "never"
+        }
+      ],
+      "prettier/prettier": [
+        "error",
+        {
+          "endOfLine": "auto"
         }
       ]
     }
